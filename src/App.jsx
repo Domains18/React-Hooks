@@ -1,12 +1,25 @@
-import { useState } from 'react'
+import { Routes, Route, Link } from 'react-router-dom'
+import { Nav } from './Components/Navbar/Nav'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div>
-      App is rendering
-    </div>
+    <>
+    <Nav/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/usestate" element={<UseState />} />
+      <Route path="/useeffect" element={<UseEffect />} />
+      <Route path="/usecontext" element={<UseContext />} />
+      <Route path="/usecallback" element={<UseCallback />} />
+      <Route path="/usememo" element={<UseMemo />} />
+      <Route path="/useRef" element={<UseRef />} />
+      <Route path="/useReducer" element={<UseReducer />} />
+      <Route path="/useTransition" element={<UseTransition />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+    </>
   )
 }
 
