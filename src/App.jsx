@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <Nav/>
-    <Routes>
+    {/* <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/usestate" element={<UseState />} />
       <Route path="/useeffect" element={<UseEffect />} />
@@ -18,7 +18,7 @@ function App() {
       <Route path="/useReducer" element={<UseReducer />} />
       <Route path="/useTransition" element={<UseTransition />} />
       <Route path="*" element={<NotFound />} />
-    </Routes>
+    </Routes> */}
     </>
   )
 }

@@ -1,0 +1,16 @@
+.nav{
+    background-color: #4A3933;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    height: 60px;
+    display: flex;
+    gap: 20px;
+    border: 2px solid #000;
+    align-items: center;
+}
+.nav-link{
+  color: #fff;
+  text-decoration: 0;
+}
