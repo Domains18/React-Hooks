@@ -1,15 +1,15 @@
 import { Routes, Route, Link } from 'react-router-dom'
-import { Nav } from './Components/Navbar/Nav'
-
+import { Nav } from './Components/Nav'
+import { Home } from './Components/Home'
 function App() {
 
 
   return (
     <>
     <Nav/>
-    {/* <Routes>
+    <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/usestate" element={<UseState />} />
+      {/* <Route path="/usestate" element={<UseState />} />
       <Route path="/useeffect" element={<UseEffect />} />
       <Route path="/usecontext" element={<UseContext />} />
       <Route path="/usecallback" element={<UseCallback />} />
@@ -17,8 +17,8 @@ function App() {
       <Route path="/useRef" element={<UseRef />} />
       <Route path="/useReducer" element={<UseReducer />} />
       <Route path="/useTransition" element={<UseTransition />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes> */}
+      <Route path="*" element={<NotFound />} /> */}
+    </Routes>
     </>
   )
 }
