@@ -9,7 +9,7 @@ export function Home (){
     return <div>
         <Rohe className="hero">
             <Poster title="React Hooks" subtitle="A practical guide to mastering React Hooks">
-                <span className="btn-btn-home">Click on the hooks on navabar</span>
+                <span className="btn-btn-home">Click on the hooks on navbar</span>
             </Poster>
         </Rohe>
     </div>
