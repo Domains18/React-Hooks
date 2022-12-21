@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom'
-import { Nav } from './Components/Nav'
-import { Home } from './Components/Home'
+import { Nav } from './Components/Nav';
+import { Home } from './Components/Home';
+import { NotFound } from './Components/NotFound';
 function App() {
 
 
@@ -16,8 +17,8 @@ function App() {
       <Route path="/usememo" element={<UseMemo />} />
       <Route path="/useRef" element={<UseRef />} />
       <Route path="/useReducer" element={<UseReducer />} />
-      <Route path="/useTransition" element={<UseTransition />} />
-      <Route path="*" element={<NotFound />} /> */}
+      <Route path="/useTransition" element={<UseTransition />} /> */}
+      <Route path="*" element={<NotFound />} />
     </Routes>
     </>
   )

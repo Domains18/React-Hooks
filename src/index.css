@@ -9,8 +9,43 @@
     gap: 20px;
     border: 2px solid #000;
     align-items: center;
+
 }
 .nav-link{
   color: #fff;
   text-decoration: 0;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #3C2A21;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  margin: auto;
+}
+
+/* End of hero */
+
+/* Start of banner component */
+.banner h1 {
+  color: #F49D1A;
+}
+
+.banner p {
+  color: #FDEEDC;
+  font-size: 18px;
+}
+
+/* End of banner component */
+
+.btn-btn-home {
+  background-color: #F49D1A;
+  color: #FDEEDC;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 10px;
+  text-decoration: none;
 }
