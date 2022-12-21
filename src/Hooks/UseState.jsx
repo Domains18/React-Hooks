@@ -8,10 +8,10 @@ export function Usestate () {
     const [count, setCount] = useState(0); // innitialize useState hook with a default value of 0
     return (
         <section>
-            <p className="btn">You have clicked {count} times</p> {/*  display the number of times the state has been updated */}
-            <button className="btn-render" onClick={() => setCount(count + 1)}>+</button> {/* increment the state
-            <span>{count}</span> // display the current state */}
-            <button className="btn-render" onClick={() => setCount(count - 1)}>-</button> {/* decrement the state */}
+            <p className="btn">You have clicked {count} times</p>
+            <button className="btn-render" onClick={() => setCount(prevCount => prevCount + 1)}>+</button>
+            <span>{count}</span>
+            <button className="btn-render" onClick={() => setCount(prevCount => prevCount - 1)}>-</button>
         </section>
 
     )
