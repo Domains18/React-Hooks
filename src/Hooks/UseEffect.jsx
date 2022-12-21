@@ -35,8 +35,9 @@ export function Useeffect (){
     // return the count value after the timer function has run (after 1 second)
     return (
         <section>
-            <span className="btn-btn-home">Resize The Screen to see the screen width</span>
+            <span className="btn-btn-home">Timer Resets After 10 seconds</span>
             <p>Timer:<span className="btn-render">{count}</span></p>
+            <span className="btn-btn-home">Resize The Screen to see the screen width</span>
             <p>Width:<span className="btn-render">{windowWidth}</span></p>
         </section>
     )
