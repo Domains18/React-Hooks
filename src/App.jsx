@@ -3,6 +3,7 @@ import { Nav } from './Components/Nav';
 import { Home } from './Components/Home';
 import { NotFound } from './Components/NotFound';
 import { Usestate } from './Hooks/UseState';
+import { Useeffect } from './Hooks/UseEffect';
 function App() {
 
 
@@ -12,7 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Usestate" element={<Usestate />} />
-      {/* <Route path="/useeffect" element={<UseEffect />} /> */}
+      <Route path="/useeffect" element={<Useeffect />} />
       {/* <Route path="/usecontext" element={<UseContext />} /> */}
       {/* <Route path="/usecallback" element={<UseCallback />} /> */}
       {/* <Route path="/usememo" element={<UseMemo />} /> */}
