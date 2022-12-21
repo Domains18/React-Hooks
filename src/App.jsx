@@ -2,6 +2,7 @@ import { Routes, Route, Link } from 'react-router-dom'
 import { Nav } from './Components/Nav';
 import { Home } from './Components/Home';
 import { NotFound } from './Components/NotFound';
+import { Usestate } from './Hooks/UseState';
 function App() {
 
 
@@ -10,7 +11,7 @@ function App() {
     <Nav/>
     <Routes>
       <Route path="/" element={<Home />} />
-      {/* <Route path="/usestate" element={<UseState />} /> */}
+      <Route path="/Usestate" element={<Usestate />} />
       {/* <Route path="/useeffect" element={<UseEffect />} /> */}
       {/* <Route path="/usecontext" element={<UseContext />} /> */}
       {/* <Route path="/usecallback" element={<UseCallback />} /> */}

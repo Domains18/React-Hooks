@@ -55,3 +55,17 @@
   display: flex;
   justify-content: center;
 }
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.btn-render{
+  color: #000;
+  background: #F49D1A;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
