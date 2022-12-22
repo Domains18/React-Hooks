@@ -4,6 +4,7 @@ import { Home } from './Components/Home';
 import { NotFound } from './Components/NotFound';
 import { Usestate } from './Hooks/UseState';
 import { Useeffect } from './Hooks/UseEffect';
+import { UseRef } from './Hooks/UseRef';
 function App() {
 
 
@@ -17,7 +18,7 @@ function App() {
       {/* <Route path="/usecontext" element={<UseContext />} /> */}
       {/* <Route path="/usecallback" element={<UseCallback />} /> */}
       {/* <Route path="/usememo" element={<UseMemo />} /> */}
-      {/* <Route path="/useRef" element={<UseRef />} /> */}
+      <Route path="/useRef" element={<UseRef />} />
       {/* <Route path="/useReducer" element={<UseReducer />} /> */}
       {/* <Route path="/useTransition" element={<UseTransition />} /> */}
       <Route path="*" element={<NotFound />} />
